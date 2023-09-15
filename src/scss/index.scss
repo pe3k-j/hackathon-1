@@ -1,7 +1,4 @@
 @import 'variables';
-@import 'home';
-@import 'menu';
-@import 'coffee';
 
 html {
   box-sizing: border-box;
@@ -67,3 +64,41 @@ color: #000000;
 font-weight: 300;
 }
 
+footer {
+  height: 10%;
+  background-color: $dark;
+  text-align: center;
+  padding: 5rem;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 0 auto;
+
+  
+  a {
+    font-size: 16px;
+      line-height: 28px;
+      text-decoration: underline;
+      color: #0099ff;
+    }
+        
+}
+p {
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+}
+
+.hashtag {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ced4da;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  text-align: center;
+}
+}
