@@ -6,6 +6,7 @@ main {
     width: 80%;
     margin: 0;
     margin: auto;
+    padding-top: 1rem;
   }
   .menu-out {
     .menu-in {
@@ -51,10 +52,6 @@ main {
       .alcoholic {
         display: flex;
         flex-direction: column;
-        h3 {
-          padding-left: 1rem;
-          padding-right: 1rem;
-        }
       }
     }
   }
