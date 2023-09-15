@@ -1,0 +1,67 @@
+@import "variables";
+
+main {
+  h2 {
+    align-self: flex-start;
+    width: 80%;
+    margin: 0;
+    margin: auto;
+  }
+  .menu-out {
+    .menu-in {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      height: 85rem;
+      @media screen and (max-width: 1200px) {
+        height: 110%;
+      }
+      @media screen and (max-width: 800px) {
+        height: 110%;
+      }
+      > div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 35%;
+        padding: 1rem;
+        @media screen and (max-width: 1200px) {
+          flex-direction: row;
+          width: 80%;
+        }
+        @media screen and (max-width: 800px) {
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+      .name-and-items {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .non-alcoholic,
+      .alcoholic {
+        display: flex;
+        flex-direction: column;
+        h3 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+
+  img {
+    width: 62rem;
+    padding: 0;
+    margin-bottom: -4rem;
+  }
+}
