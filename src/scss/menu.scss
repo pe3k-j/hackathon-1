@@ -3,6 +3,9 @@
 main {
   h2 {
     align-self: flex-start;
+    width: 80%;
+    margin: 0;
+    margin: auto;
   }
   .menu-out {
     .menu-in {
@@ -21,7 +24,7 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 50%;
+        width: 35%;
         padding: 1rem;
         @media screen and (max-width: 1200px) {
           flex-direction: row;
