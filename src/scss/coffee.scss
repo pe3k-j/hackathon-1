@@ -48,7 +48,10 @@ p {
         margin: 2rem 0;
         display: flex;
         flex-direction: column;
-        width: 47%;
+        width: 70%;
+        @media (min-width: 800px) {
+            width: 47%;
+        }
     }
 }
 
