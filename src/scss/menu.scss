@@ -10,18 +10,18 @@ main {
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
-      height: 80rem;
-        @media screen and (max-width: 1200px) {
-          height: 110%;
-        }
-        @media screen and (max-width: 800px) {
-          height: 110%;
-        }
+      height: 85rem;
+      @media screen and (max-width: 1200px) {
+        height: 110%;
+      }
+      @media screen and (max-width: 800px) {
+        height: 110%;
+      }
       > div {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 40%;
+        width: 50%;
         padding: 1rem;
         @media screen and (max-width: 1200px) {
           flex-direction: row;
@@ -35,6 +35,7 @@ main {
       .name-and-items {
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
         padding-left: 1rem;
         padding-right: 1rem;
       }
@@ -43,11 +44,20 @@ main {
         flex-direction: row;
         justify-content: space-between;
       }
+      .non-alcoholic,
+      .alcoholic {
+        display: flex;
+        flex-direction: column;
+        h3 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+      }
     }
   }
 
   img {
-    width: 100%;
+    width: 62rem;
     padding: 0;
     margin-bottom: -4rem;
   }
