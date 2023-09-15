@@ -14,18 +14,18 @@ main {
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
-      height: 85rem;
+      max-height: 85rem;
       @media screen and (max-width: 1200px) {
-        height: 110%;
+        max-height: 110%;
       }
       @media screen and (max-width: 800px) {
-        height: 110%;
+        max-height: 110%;
       }
       > div {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 35%;
+        width: 55%;
         padding: 1rem;
         @media screen and (max-width: 1200px) {
           flex-direction: row;
